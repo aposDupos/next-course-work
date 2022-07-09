@@ -4,6 +4,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    @media (max-width: 768px){
+      justify-content: flex-start;
+    }
   }
 
   &__image{
@@ -18,7 +21,15 @@
     font-size: 32px;
     cursor: pointer;
   }
-
+&__text{
+  @media (max-width: 768px){
+    font-size: 24px;
+  }
+  @media (max-width: 400px){
+    font-size: 20px;
+    text-align: center;
+  }
+}
   &__star{
     width: 48px;
     height: auto;
@@ -29,11 +40,21 @@
     display: flex;
     width: 30%;
     height: auto;
+    @media (max-width: 768px){
+      bottom: 0;
+      width: 45%;
+    }
     &_1{
       left: 0;
+      @media (max-width: 400px){
+        bottom: 40px;
+      }
     }
     &_2{
       right: 0;
+      @media (max-width: 400px){
+        bottom: 150px;
+      }
     }
   }
   &__bgChefImg{

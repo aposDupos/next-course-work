@@ -1,9 +1,9 @@
-import {Avatar, Image, Spin, Typography} from "antd";
+import {Avatar, Spin, Typography} from "antd";
 import {useGetProductsQuery} from "@/store/api/ordersApi";
 import {motion} from "framer-motion";
 import styles from './Products.module.scss'
 import {cardVariants} from "@/components/Products/variants";
-import {useEffect, useMemo, useState} from "react";
+import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {addProduct, removeProduct} from "@/store/slices/orderSlice";
 import {PRODUCT_SORT} from "@/constants/order";

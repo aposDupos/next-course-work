@@ -70,9 +70,9 @@ export default function Home() {
                     </motion.div>
                     <Image src={'/chef2.png'} preview={false} className={styles.Home__bgChefImg}/>
                 </motion.div>
-                <Typography.Title level={1}>Добро пожаловать!</Typography.Title>
+                <Typography.Title level={1} className={styles.Home__text}>Добро пожаловать!</Typography.Title>
                 <motion.div
-                    className={styles.Home__link}
+                    className={`${styles.Home__link} ${styles.Home__text}`}
                     variants={variants}
                     whileHover={'hover'}
                     whileTap={'tap'}

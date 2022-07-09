@@ -51,7 +51,7 @@ export const Header = () => {
                 <Menu className={styles.Header__nav} items={navLinks} selectedKeys={[current]} mode={'horizontal'}
                       onClick={clickHandler}/>
 
-                <Tooltip title={"Это должна была быть корзина, но нет"}><div className=""><Image preview={false} src={'/bag.png'}/></div></Tooltip>
+                <Tooltip title={"Это должна была быть корзина, но нет"}><div  className=""><Image preview={false} src={'/bag.png'}/></div></Tooltip>
 
             </div>
         </Layout.Header>
