@@ -1,0 +1,64 @@
+.Card{
+  &__wrapper{
+    box-shadow: rgb(68 55 0 / 1%) 0px 2.31722px 4.07831px 0px, rgb(68 55 0 / 1%) 0px 5.38772px 9.48239px 0px, rgb(68 55 0 / 1%) 0px 9.67509px 17.0282px 0px, rgb(68 55 0 / 1%) 0px 16.0571px 28.2605px 0px, rgb(68 55 0 / 1%) 0px 26.4535px 46.5581px 0px, rgb(68 55 0 / 2%) 0px 46.233px 81.3701px 0px, rgb(68 55 0 / 2%) 0px 100px 176px 0px, rgb(68 55 0 / 0%) 0px 2.31722px 4.07831px 0px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 24px;
+  }
+
+  &__main{
+
+  }
+
+  &__footer{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  &__title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__id{
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 116, 139);
+    color: white;
+  }
+
+  &__products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__product{
+    font-size: 12px;
+    padding: 2px 8px;
+    background-color: hsl(259, 100%, 71%);
+    color: white;
+    border-radius: 8px;
+  }
+
+  &__footerImg{
+    position: absolute;
+    bottom: 0;
+    height: 32px;
+    width: 32px;
+  }
+}

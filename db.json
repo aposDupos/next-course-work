@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "provider_data": {
+        "id": 1,
+        "title": "ООО Сельхоз",
+        "address": "Московская область, Балашиха, улица Пушкина, 12",
+        "contact_phone": "+88888888888",
+        "contact_email": "email@example.com"
+      },
+      "title": "Помидоры",
+      "description": "Помидоры",
+      "price": 100,
+      "count": 5
+    },
+    {
+      "id": 2,
+      "provider_data": {
+        "id": 1,
+        "title": "ООО Сельхоз",
+        "address": "Московская область, Балашиха, улица Пушкина, 12",
+        "contact_phone": "+88888888888",
+        "contact_email": "email@example.com"
+      },
+      "title": "Огурцы",
+      "description": "Огурцы",
+      "price": 200,
+      "count": 300
+    }
+  ],
+  "status": "CREATED",
+  "user": 1
+}

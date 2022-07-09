@@ -1,0 +1,41 @@
+.Products{
+  &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 32px;
+  }
+  &__card{
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__cardImage{
+  }
+  &__cardPrice{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__btn{
+    margin-top: 12px;
+    cursor: pointer;
+    width: 84px;
+    background: linear-gradient(90deg, #ff008c 0%, rgb(211, 9, 225) 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 1;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform-origin: 50% 50%;
+
+  }
+}

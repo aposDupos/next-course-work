@@ -1,0 +1,50 @@
+.Home{
+  &__container{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image{
+    position: absolute;
+    max-height: 100%;
+    z-index: 11111;
+  }
+
+  &__link{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+  }
+
+  &__star{
+    width: 48px;
+    height: auto;
+  }
+
+  &__bgChef{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: auto;
+    &_1{
+      left: 0;
+    }
+    &_2{
+      right: 0;
+    }
+  }
+  &__bgChefImg{
+    filter: drop-shadow(0px 113px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.2469px 29.2013px rgba(0, 0, 0, 0.0482987)) drop-shadow(0px 20.0246px 14.1767px rgba(0, 0, 0, 0.0389404)) drop-shadow(0px 9.81642px 6.94968px rgba(0, 0, 0, 0.0310596)) drop-shadow(0px 3.88143px 2.74791px rgba(0, 0, 0, 0.0217013));
+    z-index: 3;
+  }
+  &__bgChefText{
+    position: absolute;
+    width: 160px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 22%) 0px 0.542907px 1.41156px -1.25px, rgb(0 0 0 / 19%) 0px 2.06119px 5.35909px -2.5px, rgb(0 0 0 / 8%) 0px 9px 23.4px -3.75px;
+  }
+}

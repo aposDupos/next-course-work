@@ -1,0 +1,21 @@
+.Orders{
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+  }
+  &__card{
+    height: 100%;
+  }
+  &__ordersWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 240px));
+    grid-auto-rows: 1fr;
+    gap: 32px;
+    align-items: flex-start;
+  }
+  &__pagination{
+
+  }
+}

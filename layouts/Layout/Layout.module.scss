@@ -1,0 +1,26 @@
+.Layout{
+
+  background: #fcfbf8;
+&__container{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(200px, 1200px);
+  justify-content: center;
+  grid-template-rows: auto 1fr auto;
+}
+  &__content{
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  &__footer{
+    padding: 12px 24px;
+    background-color: transparent;
+  }
+
+  &__footerContainer{
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 20px;
+  }
+}
