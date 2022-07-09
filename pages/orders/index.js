@@ -16,19 +16,19 @@ export default function Orders() {
         refetchOnMountOrArgChange: true
     })
 
-    console.log(data)
     useEffect(() => {
         setCurrPage(router.query.page || 1)
     }, [router.query.page])
 
     useEffect(() => {
         setStatus(router.query.status || null)
+
     }, [router.query.status])
 
     const onPageChange = page => router.push({query: {...router.query, page}})
     const onStatusChange = status => {
         setStatus(status)
-        router.push({query: {...router.query, status}})
+        router.push({query: {...router.query, status, page: 1}})
     }
     return (
         <Transition>
